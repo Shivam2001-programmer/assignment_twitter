@@ -6,7 +6,15 @@
 2. npm install
 3. npm start
 
-User Management
+## Backend Part Setup
+
+1. npm install
+2. npm start
+
+PORT=8000
+MONGO =<YOUR_MONGODB_DATABASE_URL>
+JWT_SECRET=<YOUR_SECRET>
+
 
 Handle user registration and authentication.
 Manage user profiles, including usernames, email addresses, and profile information.
@@ -33,6 +41,4 @@ Clone the project on your local
 execute npm install on the same pathof root directory of the downloaded project
 create a .env file in your root directory and create the following environment variables
 
-PORT=8000
-DATABSE_URL=<YOUR_MONGODB_DATABASE_URL>
-JWT_SECRET=<YOUR_SECRET>
+
